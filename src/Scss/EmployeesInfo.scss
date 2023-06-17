@@ -1,0 +1,106 @@
+.container {
+  .page_title_box {
+    display: flex;
+    justify-content: center;
+
+    h1 {
+      font-family: sans-serif;
+      color: #6a4ee1;
+    }
+  }
+
+  .employees_link {
+    margin-left: 15%;
+
+    button {
+      width: 141px;
+      height: 40px;
+      background-color: #b87df9;
+      background-image: linear-gradient(90deg, #b87df9, #6a4ee1);
+      border: 0 #000;
+      padding: 9px 20px;
+      font-size: 14px;
+      font-weight: 500;
+      border-radius: 5px;
+      cursor: pointer;
+      color: #fff;
+      text-align: center;
+
+      &:hover {
+        background-image: linear-gradient(90deg, #b87df9, #6a4ee1 60%);
+      }
+    }
+  }
+
+  .block {
+    margin-top: 5%;
+    margin-left: 25%;
+    border: 1px solid #1919d8;
+    width: 50%;
+    border-radius: 15px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    flex-direction: column;
+
+    .employee_page {
+      margin-top: 15px;
+      margin-left: 15px;
+
+      u {
+        margin-left: 20%;
+
+        div {
+          font-family: sans-serif;
+          color: #000000;
+          font-size: 20px;
+
+          span {
+            color: #4f4949;
+          }
+        }
+      }
+    }
+
+    .table {
+      display: flex;
+      margin: 2% 15%;
+      flex-direction: column;
+      width: 70%;
+      height: 100%;
+      border: 0.5px solid #553bc3;
+
+      .title {
+        display: flex;
+        height: 50px;
+        flex-direction: row;
+        align-items: flex-end;
+
+        div {
+          width: 25%;
+          height: 40px;
+          border: 0.5px solid #553bc3;
+          padding: 10px 0 0 10px;
+          font-weight: bold;
+          font-family: sans-serif;
+        }
+      }
+
+      .tasks_block {
+        display: flex;
+        flex-direction: column;
+        .tasks_info {
+          display: flex;
+  
+        div {
+          width: 25%;
+          height: 40px;
+          border: 0.5px solid #553bc3;
+          padding: 10px 0 0 10px;
+          font-family: sans-serif;
+        }
+      }
+      }
+    }
+  }
+}
